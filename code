@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Development Books</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .category {
+            margin: 20px;
+            padding: 10px;
+        }
+        .book {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .book img {
+            max-height: 150px;
+            margin-right: 20px;
+        }
+        .book-info {
+            max-width: 600px;
+        }
+        .book-info h3 {
+            margin: 0 0 10px;
+        }
+        .book-info p {
+            margin: 0 0 5px;
+        }
+        .book-info a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .book-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Personal Development Books</h1>
+        <p>Explore books categorized to enhance productivity, mindset, well-being, and more.</p>
+    </header>
+    <main>
+        <div class="category">
+            <h2>Productivity and Focus</h2>
+            <div class="book">
+                <img src="https://images.example.com/deep-work.jpg" alt="Deep Work">
+                <div class="book-info">
+                    <h3>Deep Work – Cal Newport</h3>
+                    <p>A guide to achieving deep focus in a distracted world, enabling higher productivity.</p>
+                    <a href="https://www.amazon.com" target="_blank">Purchase here</a>
+                </div>
+            </div>
+            <!-- Add similar blocks for other books in this category -->
+        </div>
+        <div class="category">
+            <h2>Leadership, Influence, and Communication</h2>
+            <div class="book">
+                <img src="https://images.example.com/you-are-a-badass.jpg" alt="You are a Badass">
+                <div class="book-info">
+                    <h3>You are a Badass – Jen Sincero</h3>
+                    <p>A motivational guide to help you embrace confidence and achieve your goals.</p>
+                    <a href="https://www.amazon.com" target="_blank">Purchase here</a>
+                </div>
+            </div>
+            <!-- Add similar blocks for other books in this category -->
+        </div>
+        <!-- Repeat similar sections for other categories -->
+    </main>
+</body>
+</html>
